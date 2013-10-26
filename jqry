@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="utf-8" />
+   <title>Mis paginas en jquerymobiles</title>
+   <meta name="viewport" content="width=device-width, minimun-scale=1, maximun-scale=1">
+   	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+   	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    
+</head>
+
+<body>
+	<!--	*********************pagina1*************-->
+	<!--/page-->
+<section id="pagina1" data-role="page"data-title="esta es mi pagina 1">
+		<!--/header-->
+	<header data-role="header">
+		<h1>INICIO</h1>
+	</header>
+	<!-- /header -->
+	<!-- /content -->
+	<article data-role="content">
+		<p><form action="CrearTendero.php" method="post">
+            <label for="basic">Identificacion:</label>
+
+            <input type="text" name="txtIdentificacion" id="basic" value="" />
+
+            <label for="basic">Nombre:</label>
+
+            <input type="text" name="txtNombres" id="basic" value="" />
+
+            <label for="basic">Apellido:</label>
+
+            <input type="text" name="txtApellidos" id="basic" value="" />
+
+            <label for="basic">Tienda:</label>
+
+            <input type="text" name="txtTienda" id="basic" value="" />
+
+            <label for="basic">Direccion:</label>
+
+            <input type="text" name="txtDireccion" id="basic" value="" />
+
+            <label for="basic">Telefono:</label>
+
+            <input type="text" name="txtTelefono" id="basic" value="" />
+            <input type="submit" name="btnGuardar" value="Guardar">
+    </form></p>
+		<p>
+<a href="#pagina2">vamos a la pagina 2/a><br>
+	<a href="#pagina3"data-rel="dialog">vamos a la pagina 3 con dialago/a>
+
+		</P>
+	</article>
+	<!-- /content -->
+
+	<!-- footer -->
+	<footer data-role="footer">
+		<h1>AYAPPS.CO</h1>
+	</footer>
+	<!-- /footer -->
+</section>
+<!-- /page -->
+
+<!--	*********************pagina2*************-->
+<section id="pagina2" data-role="page" data-title="esta es mi pagina 2">
+	<header data-role="header">
+		<h1>PAGE 2</h1>
+	</header>
+	<!-- /header -->
+	<article data-role="content">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>
+			<a href="#pagina1">volvere a pagina 1</a>
+		</p>
+
+	</article>
+	<!-- /content -->
+	<footer data-role="footer">
+		<h1>pie de pagina</h1>
+	</footer>
+	<!-- /footer -->
+</section>
+<!-- /page -->q
+
+<!--	*********************pagina3*************-->
+<section id="pagina3" data-role="page" data-title="esta es mi pagina 3">
+	<header data-role="header">
+		<h1>PAGE 2</h1>
+	</header>
+	<!-- /header -->
+	<article data-role="content">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>
+			<a href="#pagina1">volvere a pagina 1</a>
+		</p>
+
+	</article>
+	<!-- /content -->
+	<footer data-role="footer">
+		<h1>pie de pagina</h1>
+	</footer>
+	<!-- /footer -->
+</section>
+<!-- /page -->
+
+
+
+</body>
+
+</html>
